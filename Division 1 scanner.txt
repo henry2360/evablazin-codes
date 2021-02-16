@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Division{
+public static void main(String[] args){
+System.out.println ("Division");
+Scanner henry = new Scanner(System.in);
+
+System.out.println("enter value for a" );
+int a= henry.nextInt();
+
+System.out.println("enter value for b" );
+int b=henry.nextInt();
+
+
+System.out.println("enter value for c" );
+int c=henry.nextInt();
+
+
+System.out.println("enter value for d" );
+int d=henry.nextInt();
+
+double e =(a+b)*c/(d*a);
+
+double f = (a*c)+(a*b)/d+2;
+
+
+System.out.println (e);
+System.out.println(f);
+
+System.out.println("yourarealthegoat");
+
+
+
+}
+}
